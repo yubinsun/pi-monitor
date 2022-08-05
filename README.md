@@ -1,6 +1,6 @@
 # Intro
 GUI for the Debugger for I<sup>2</sup>c and UART device. Intended to work on raspberry pi. 
-
+![Simple Interface Now ](screenshot/simple-GUI.png)
 # Requirement
 - python3
 - tkinter (often come with python 3)
