@@ -1,11 +1,22 @@
 import tkinter as tk
+
+from InterLayer import InterLayer
 from config import *
-import GUI
+from GUI import GUI
 
 def main():
-    window = GUI.GUI()
-    window.init_main_screen()
+    il = InterLayer()
+    gui = GUI(il)
+    root = gui.init_main_screen()
+
+
+
+    tk.mainloop()
+
+
+
 
 if __name__ == '__main__':
     main()
-    tk.mainloop()
+
+
